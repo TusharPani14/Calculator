@@ -53,7 +53,7 @@ button.forEach(function (btn) {
       try {
         text.textContent = eval(text.textContent);
       } catch {
-        text.textContent = "!ERROR";
+        text.textContent = "ERROR!";
       }
       text.textContent = eval(text.textContent);
     } else if (target.contains("multiply")) {
